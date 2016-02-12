@@ -1,0 +1,44 @@
+
+Special Requirements
+--------------------
+
+1) flashcards should have images and audio: 
+    Anki supports pictures and audio and deck editing by student
+    see: https://ankiweb.net/shared/info/1217051330
+    Use their format
+2) A confuser feature - 
+    Instructor can create the cards with alternate pronounciation or text, so the english will be the same,
+    but the foreign text will have variations
+3) Dictionary -
+    Can we use an online dictionary?
+    Found some free ones for download - http://www.freelang.net/dictionary/japanese.php
+
+Core Requirements
+-----------------
+Student signs up to system,
+Student logs in,
+    Study lesson (can use dictionary to see word usage), 
+    Takes Quiz (multiple choice),
+    Gets Score,
+    Cannot repeat quiz
+
+Instructor signs in (How does instructor create accounts? Admin account does it?)
+    Creates a course
+    Creates a lesson for the course
+    Creates cards - (use dictionary?), adds audio, adds picture
+                  - Is there value in using alternative input methods (say pinyin for chinese and ?? for japanese )
+    Creates quiz - (use existing card), allowed to alter any part of the card info for confuser
+                             - Shows english and pick alternative japanese text?
+    Views results - Table of student stats per lesson and per course
+                    Lessons view (for learning)
+                    Test taken, date, time it took, score
+
+Researcher signs in
+    View Student stats across multiple courses/lessons
+    Do plots with D3 of student stats ??
+
+
+
+
+
+
