@@ -18,33 +18,39 @@ Special Requirements
 Core Requirements
 -----------------
 Student signs up to system, using email address, sets password (do we send email to student?)
+student creates a simple profile.
+
 Student logs in,
-    Study lesson (can use dictionary to see word usage), 
-    Takes Quiz (multiple choice),
-    Gets Score,
-    Cannot repeat quiz (openfluency)
+    Student sees open courses plus closed courses (invited by instructor) keyed by email address
+    Study lesson (can use dictionary to see word usage), flips thru flashcard to memorize.
+    (Should there be practice quizzes - scored not saved, where students can block one field in the flashcard data)
+    (This is where the spaced repetition comes in)
+    (In Duolingo and similar apps, user takes an easy quiz to learn the words, user cannot view decks)
+    Takes scored quiz (multiple choice),
+    Gets score immediately,
+    Open fluency doesn't allow studen to repeat scored quiz
 
 Instructor signs in (How does instructor create accounts? Admin account does it?)
-    Creates a course
-    Creates a lesson for the course
-    Creates cards - (use dictionary?), adds audio, adds picture
-                  - Is there value in using alternative input methods (say pinyin for chinese and ?? for japanese )
-    Creates quiz - (use existing card), allowed to alter any part of the card info for confuser
-                             - Shows english and pick alternative japanese text?
-    Views results - Table of student stats per lesson and per course
-                    Lessons view (for learning)
-                    Test taken, date, time it took, score
+    Creates a course - name, description, level
+                     - Text messages to notify student of changes
+    Creates a chapter/lesson for the course - card deck
+                     - Text messages to notify student of changes
+        Creates cards - (use dictionary?), adds audio, adds picture
+                      - uses UTF-8 to input char in target language
+        Creates quiz - (use existing card), allowed to alter any part of the card info for confuser
+                     - can expand confuser list for language.
+                     - Shows english or alternative japanese alphabet (choice)
+    Views results - Table of student stats quiz, per lesson and per course
+                    Lessons preview (for learning)
+                    Shows test taken, date, time it took, score
+                    Sends messages to students
 
 Researcher signs in
     View Student stats across multiple courses/lessons
+    Can we sort students stats by language/instructor/time/etc to show dynamic stats
+        and display a list with simple descriptive statistics.
     Do plots with D3 of student stats ??
 
-Environment:
-1) java 7 or 8 (if grails)
+Environment (if using openfluency)
+1) java 7 or 8 
 2) Grail 2.3.7 -> Grails 3.x
-
-
-
-
-
-
