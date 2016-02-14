@@ -37,6 +37,8 @@ Instructor signs in (How does instructor create accounts? Admin account does it?
                      - Text messages to notify student of changes
         Creates cards - (use dictionary?), adds audio, adds picture
                       - uses UTF-8 to input char in target language
+                      - on macbook, I can use kotoeri method to input japanese with predictive text,
+                      it is a lot better than making someone create csv when creating cards (using openfluency card editor).
         Creates quiz - (use existing card), allowed to alter any part of the card info for confuser
                      - can expand confuser list for language.
                      - Shows english or alternative japanese alphabet (choice)
