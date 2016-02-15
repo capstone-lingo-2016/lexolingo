@@ -14,6 +14,8 @@ Special Requirements
     Can we use an online dictionary?
     Found some free ones for download - http://www.freelang.net/dictionary/japanese.php
     Xenogloss has 2 downloaded.
+4) Direct import of anki decks into the system.
+5) Cool feature: Add engaging short films in very short video clips (a few seconds of dialogue) as a flashcard and student has to translate the speech in the clip to advance to the next card in order to watch the entire film (gamification)
 
 Core Requirements
 -----------------
@@ -28,7 +30,9 @@ Student logs in,
     (In Duolingo and similar apps, user takes an easy quiz to learn the words, user cannot view decks)
     Takes scored quiz (multiple choice),
     Gets score immediately,
-    Open fluency doesn't allow studen to repeat scored quiz
+    Open fluency doesn't allow student to repeat scored quiz
+
+    Students can create their flash card - not only from list
 
 Instructor signs in (How does instructor create accounts? Admin account does it?)
     Creates a course - name, description, level
@@ -52,7 +56,8 @@ Researcher signs in
     Can we sort students stats by language/instructor/time/etc to show dynamic stats
         and display a list with simple descriptive statistics.
     Do plots with D3 of student stats ??
+    Do stats show that some teachers are more effective?
 
 Environment (if using openfluency)
-1) java 7 or 8 
-2) Grail 2.3.7 -> Grails 3.x
+1) Java 7
+2) Grail 2.3.7 -> Grails 3.1.1 - do some experiments, is it a lot of work ?
